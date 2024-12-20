@@ -4,7 +4,7 @@
 #include <vector>
 #include <sst/core/component.h>
 #include <sst/core/subcomponent.h>
-#include <sst/elements/MarblesDemo/marbles.h>
+#include "sst/elements/MarblesDemo/marbles.h"
 
 namespace SST {
 namespace MarblesDemo {
