@@ -1,4 +1,4 @@
-# SST-Marbles-Demo-Element
+# SST MarblesDemo Element
 
 This demo illustrates the flexibility and extensibility of SST SubComponents by showcasing a hierarchical and templated component structure. It demonstrates how to create, extend, and register subcomponents within the SST framework.
 
