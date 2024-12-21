@@ -47,3 +47,26 @@ public:
     SmallIntMarble(ComponentId_t id, Params& params) : SmallMarble<int>(id, params) {}
 };
 ```
+
+## Components
+
+- **MarblesBag**: A component that acts as a container for marbles. It has a parameter to specify the maximum number of marbles it can hold.
+
+- **Marble Types**: The script defines several types of marbles:
+  - `SmallIntMarble`
+  - `SmallFloatMarble`
+  - `LargeIntMarble`
+  - `LargeFloatMarble`
+
+  These types are derived from a base class `Marble`, allowing them to be used interchangeably within the bag.
+
+## How It Works
+
+1. **Setup**: The script imports necessary libraries and sets the number of marbles to 10.
+
+2. **Component Creation**: It creates an instance of the `MarblesBag` component and sets its parameters.
+
+3. **Random Selection**: The script randomly selects a marble type for each slot in the bag and adds it as a subcomponent.
+
+4. **Inheritance and Polymorphism**: The use of inheritance allows all marble types to be treated as `Marble` objects, ensuring compatibility with the `MarblesBag`.
+
